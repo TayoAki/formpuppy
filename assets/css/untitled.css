@@ -83,3 +83,43 @@
   border-color: #ea0d0d;
 }
 
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #b10a0a;
+  border-color: #900909;
+}
+
+.btn-outline-primary.focus, .btn-outline-primary:focus {
+  box-shadow: 0 0 0 .2rem #9e0a0a;
+}
+
+.btn-outline-primary.focus, .btn-outline-primary:focus {
+  box-shadow: 0 0 0 .2rem rgb(234,13,13);
+}
+
+a:hover {
+  color: #970a0a;
+  text-decoration: underline;
+}
+
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 .2rem rgb(234,13,13);
+}
+
+.special-skill-item .icon {
+  text-align: center;
+  font-size: 50px;
+  background-color: #9e0a0a;
+  color: #fff;
+  height: 70px;
+  width: 70px;
+  line-height: 69px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus, .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .2rem rgb(234,13,13);
+}
+
